@@ -10,9 +10,9 @@ import {
 
 const FeedCarousel = () => {
   return (
-    <div>
+    <div className="mt-10">
       <Carousel>
-        <CarouselContent>
+        <CarouselContent className="max-w-xl">
           {suggestions.map((suggestion, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <SuggestFriendCard

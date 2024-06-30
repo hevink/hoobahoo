@@ -12,13 +12,13 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #676666;
+  background: transparent;
   border-radius: 12px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: transparent;
   border-radius: 12px;
 }
 

@@ -16,7 +16,7 @@ const questions = [
 const TilesCarousel = () => {
   return (
     <Carousel>
-      <CarouselContent className="max-w-2xl">
+      <CarouselContent className="max-w-xl">
         <CarouselItem className="">
           <div className="mt-10">
             <div className="flex items-center gap-8">
