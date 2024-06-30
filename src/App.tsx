@@ -1,15 +1,17 @@
 import "./App.css";
 import Feed from "./components/Feed";
-import Sidebar from "./components/Sidebar";
-import Suggestions from "./components/Suggestions";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Suggestions from "./components/Suggestions/Suggestions";
 
 function App() {
   return (
-    <div className="max-w-7xl h-screen mx-auto bg-[#1e1e1e]">
-      <div className="flex">
-        <Sidebar />
-        <Feed />
-        <Suggestions />
+    <div className="bg-[#1e1e1e]">
+      <div className="max-w-7xl h-screen mx-auto">
+        <div className="flex h-full">
+          <Sidebar />
+          <Feed />
+          <Suggestions />
+        </div>
       </div>
     </div>
   );
