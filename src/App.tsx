@@ -5,8 +5,8 @@ import Suggestions from "./components/Suggestions";
 
 function App() {
   return (
-    <div className="max-w-7xl h-screen">
-      <div className="flex ">
+    <div className="max-w-7xl h-screen mx-auto">
+      <div className="flex">
         <Sidebar />
         <Feed />
         <Suggestions />
