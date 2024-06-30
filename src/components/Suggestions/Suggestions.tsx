@@ -4,7 +4,7 @@ import placeholder2 from "../../assets/placeholder-2.png";
 import placeholder3 from "../../assets/placeholder-3.png";
 import mukeshAmbani from "../../assets/mukesh-ambani.png";
 
-const suggestions = [
+export const suggestions = [
   {
     user_image: placeholder1,
     user_name: "Virat Kohli",
@@ -38,7 +38,7 @@ const questions = [
 
 const Suggestions = () => {
   return (
-    <div className="mt-[136px] w-[470px]">
+    <div className="pt-[136px] w-[470px] pl-5">
       <div className="flex items-center justify-between mb-5">
         <p className="text-white text-2xl font-bold">Suggested Friends</p>
         <p className="text-[#C171EB] font-bold">See more</p>
